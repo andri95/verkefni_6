@@ -1,4 +1,3 @@
-
 from sys import argv
 
 import bottle
@@ -8,7 +7,7 @@ bottle.debug(True)
 
 @get('/')
 def index():
-    return template("index.tpl")
+    return template('index.tpl')
 
 @route('/static/<filename:re:.*\jpg>')
 def send_image(filename):
