@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 from sys import argv
 
@@ -10,6 +8,10 @@ bottle.debug(True)
 
 @get('/')
 def index():
-    return "Hallo Heimur í Heroku og Github"
+    return "index.tpl"
+
+@route('/static/<filename:re:.*\jpg>')
+def send_image(filename):
+    return static_file(filename, root='static')
 
 bottle.run(host='0.0.0.0', port=argv[1])
