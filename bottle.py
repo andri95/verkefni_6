@@ -3593,7 +3593,7 @@ class StplParser(object):
         return line, comment
 
 
-def template(args: object, kwargs: object) -> object:
+def template(*args, **kwargs):
     '''
     Get a rendered template as a string iterator.
     You can use a name, a filename or a template string as first parameter.
