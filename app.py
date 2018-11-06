@@ -7,6 +7,6 @@ bottle.debug(True)
 
 @get('/')
 def index():
-    return "virkar þetta"
+    return template ('index.tpl')
 
 bottle.run(host='0.0.0.0', port=argv[1])
