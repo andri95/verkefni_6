@@ -10,7 +10,7 @@ bottle.debug(True)
 def index():
     return "index.tpl"
 
-@route('/static/<filename:re:.*\jpg>')
+@get('/static/<filename:re:.*\jpg>')
 def send_image(filename):
     return static_file(filename, root='static')
 
