@@ -27,7 +27,7 @@ def skodad():
     if request.get_cookie("vara"):
         valin_vara = request.get_cookie("vara")
 
-    return template('skodad.tpl', valin_vara = valin_vara)
+        return template('skodad.tpl', valin_vara = valin_vara)
 
 
 @route('/static/<filename>')
