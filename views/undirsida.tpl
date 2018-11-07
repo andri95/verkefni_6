@@ -5,7 +5,7 @@
     </head>
     <body>
         <img src="/static/turn1.jpg" alt="Bottle">
-
+        {{tolvuturn}}
         <h1>Þessi er flottur!</h1>
     </body>
 </html>
