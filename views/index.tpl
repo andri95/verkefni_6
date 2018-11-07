@@ -5,7 +5,7 @@
     </head>
     <body>
         <div>
-            <h1>Virkar þetta?</h1>
+            <img src="/static/{{mynd1}}" alt="Bottle">
         </div>
     </body>
 </html>
