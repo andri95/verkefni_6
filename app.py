@@ -13,7 +13,7 @@ def index():
     mynd4 = 'turn4.jpg'
     mynd5 = 'turn5.jpg'
     mynd6 = 'turn6.jpg'
-    if request.query.item == "turnkassi1" or request.query.item == "turnkassi2" or request.query.item == "turnkassi3" or request.query.item == "turnkassi4" or or request.query.item == "turnkassi5" or or request.query.item == "turnkassi6:":
+    if request.query.item == "turnkassi1" or request.query.item == "turnkassi2" or request.query.item == "turnkassi3" or request.query.item == "turnkassi4" or request.query.item == "turnkassi5" or request.query.item == "turnkassi6:":
         product = request.query.item
         response.set_cookie("vara", product)
 
