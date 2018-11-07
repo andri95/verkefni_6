@@ -35,7 +35,7 @@ def skodad(mynd):
         valin_vara = request.get_cookie("vara")
         vorur.append(valin_vara)
 
-        return template('skodad.tpl', vorur = vorur)
+        return valin_vara
     else:
         return "þetta virkar ekki"
 
