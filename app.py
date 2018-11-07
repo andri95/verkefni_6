@@ -17,6 +17,7 @@ def index():
         product = request.query.item
         response.set_cookie("vara", product)
         return redirect('/skodad')
+        #return redirect('/')
 
     else:
         return template('index.tpl', mynd1 = mynd1, mynd2 = mynd2, mynd3 = mynd3, mynd4 = mynd4, mynd5 = mynd5, mynd6 = mynd6)
