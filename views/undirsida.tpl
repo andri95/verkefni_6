@@ -4,7 +4,7 @@
         <meta charset="utf-8">
     </head>
     <body>
-        {{tolvuturn}}
+        {{mynd1}}
         <h1>Þessi er flottur!</h1>
     </body>
 </html>
