@@ -24,10 +24,12 @@ def index():
 
 @get('/skodad')
 def skodad():
+    vorur = []
     if request.get_cookie("vara"):
         valin_vara = request.get_cookie("vara")
+        vorur.append(valin_vara)
 
-        return template('skodad.tpl', valin_vara = valin_vara)
+        return template('skodad.tpl', vorur = vorur)
 
 
 @route('/static/<filename>')
