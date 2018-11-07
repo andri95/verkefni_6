@@ -5,7 +5,7 @@
     </head>
     <body>
         <div>
-            <img src="/static/turn1.jpg" alt="Bottle">
+            <h1>Virkar þetta?</h1>
         </div>
     </body>
 </html>
