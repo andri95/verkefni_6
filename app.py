@@ -13,11 +13,17 @@ def index():
     mynd4 = 'turn4.jpg'
     mynd5 = 'turn5.jpg'
     mynd6 = 'turn6.jpg'
+    if request.query.item == "turnkassi1" or request.query.item == "turnkassi2" or request.query.item == "turnkassi3" or request.query.item == "turnkassi4" or or request.query.item == "turnkassi5" or or request.query.item == "turnkassi6:":
+        product = request.query.item
+        response.set_cookie("vara", product)
+
+
     return template('index.tpl', mynd1 = mynd1, mynd2 = mynd2, mynd3 = mynd3, mynd4 = mynd4, mynd5 = mynd5, mynd6 = mynd6)
 
-@get('/turnar/<turn>')
-def undirsida(turn):
-    return template('undirsida.tpl', tolvuturn = turn)
+
+@get('/skodad')
+def skodad():
+    return template('skodad.tpl')
 
 
 @route('/static/<filename>')
