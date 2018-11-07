@@ -22,8 +22,8 @@ def index():
         return template('index.tpl', mynd1 = mynd1, mynd2 = mynd2, mynd3 = mynd3, mynd4 = mynd4, mynd5 = mynd5, mynd6 = mynd6)
 
 
-@get('/skodad')
-def skodad():
+@get('/skodad/<mynd>')
+def skodad(mynd):
     mynd1 = 'turn1.jpg'
     mynd2 = 'turn2.jpg'
     mynd3 = 'turn3.jpg'
