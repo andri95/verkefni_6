@@ -4,6 +4,6 @@
         <meta charset="utf-8">
     </head>
     <body>
-        {{valin_vara}}
+        <img src="/static/{{valin_vara}}" alt="Bottle">
     </body>
 </html>
