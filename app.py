@@ -15,7 +15,7 @@ def index():
     mynd6 = 'turn6.jpg'
     return template('index.tpl', mynd1 = mynd1, mynd2 = mynd2, mynd3 = mynd3, mynd4 = mynd4, mynd5 = mynd5, mynd6 = mynd6)
 
-@route('/static/<filename:re:.*\jpg>')
+@route('/static/<filename>')
 def send_image(filename):
     return static_file(filename, root='static')
 
