@@ -4,8 +4,9 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <img src="/static/turn1.jpg" alt="Bottle">
-        {{tolvuturn}}
-        <h1>Þessi er flottur!</h1>
+        % if {{tolvuturn}} == 'turnkassi1':
+            <img src="/static/turn1.jpg" alt="Bottle">
+            <h1>Þessi er flottur!</h1>
+        % end
     </body>
 </html>
