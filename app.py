@@ -30,6 +30,8 @@ def skodad():
         vorur.append(valin_vara)
 
         return template('skodad.tpl', vorur = vorur)
+    else:
+        return "þetta virkar ekki"
 
 
 @route('/static/<filename>')

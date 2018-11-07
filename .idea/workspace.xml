@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a48a28d-f62f-406c-bd32-e8631b5c38f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/views/skodad.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/views/skodad.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,14 +34,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="760" />
+          <entry key="py" value="793" />
           <entry key="tpl" value="823" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="823" />
-          <entry key="Python" value="760" />
+          <entry key="Python" value="793" />
         </counts>
       </usages-collector>
     </session>
@@ -53,12 +53,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+                <state relative-caret-position="447">
+                  <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
                   <folding>
                     <element signature="e#60#80#0" expanded="true" />
-                    <marker date="1541563454730" expanded="true" signature="593:1044" ph="..." />
-                    <marker date="1541563454730" expanded="true" signature="884:940" ph="..." />
+                    <marker date="1541564660629" expanded="true" signature="593:1089" ph="..." />
+                    <marker date="1541564660629" expanded="true" signature="884:985" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -101,8 +101,8 @@
         <option value="$PROJECT_DIR$/bottle.py" />
         <option value="$PROJECT_DIR$/views/undirsida.tpl" />
         <option value="$PROJECT_DIR$/views/index.tpl" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/views/skodad.tpl" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -240,22 +240,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="e#60#80#0" expanded="true" />
-            <marker date="1541563454730" expanded="true" signature="593:1044" ph="..." />
-            <marker date="1541563454730" expanded="true" signature="884:940" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="81" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="e#60#80#0" expanded="true" />
+            <marker date="1541564660629" expanded="true" signature="593:1089" ph="..." />
+            <marker date="1541564660629" expanded="true" signature="884:985" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
