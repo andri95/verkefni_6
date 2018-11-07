@@ -24,6 +24,12 @@ def index():
 
 @get('/skodad')
 def skodad():
+    mynd1 = 'turn1.jpg'
+    mynd2 = 'turn2.jpg'
+    mynd3 = 'turn3.jpg'
+    mynd4 = 'turn4.jpg'
+    mynd5 = 'turn5.jpg'
+    mynd6 = 'turn6.jpg'
     vorur = []
     if request.get_cookie("vara"):
         valin_vara = request.get_cookie("vara")
